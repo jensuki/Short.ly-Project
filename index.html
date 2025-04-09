@@ -7,7 +7,8 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="js/index.js" defer></script>
     <title>Short.ly</title>
     <link rel="stylesheet" href="css/style.css">
 
@@ -79,6 +80,11 @@
                 <button
                     class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2">Shorten
                     It</button>
+
+                <!-- error msg / link validation -->
+                <div id="err-msg" class="absolute left-7 bottom-3 text-red text-sm italic">
+
+                </div>
             </form>
 
             <!-- link 1 -->
