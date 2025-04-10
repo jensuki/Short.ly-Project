@@ -1,5 +1,6 @@
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.html', './js/**/*.js'],
+  safelist: ['border-red'],
   theme: {
     extend: {
       colors: {
